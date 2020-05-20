@@ -3,4 +3,12 @@
   border: 1px solid #4491db;
   border-radius: 4px;
   background: #fff;
+  padding: 3px;
+}
+.country {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 0.8em;
 }
