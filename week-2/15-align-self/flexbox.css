@@ -7,12 +7,20 @@
   align-self: flex-end;
 }
 
+.countries--first .country--uganda {
+  align-self: stretch;
+}
+
 .countries--second {
   align-items: center;
 }
 
 .countries--second .country--ethiopia {
   align-self: flex-end;
+}
+
+.countries--second .country--uganda {
+  align-self: center;
 }
 
 .countries--third {
