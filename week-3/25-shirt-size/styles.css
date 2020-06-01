@@ -1,1 +1,7 @@
 /* Add your CSS below */
+.screenreader {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  left: -2000px;
+}
+/* users who can not see use assistive technology to browse the web. This technology is often called a "screen reader". It reads what is on the screen for them. These tools do not work for forms unless every field has a label. */
