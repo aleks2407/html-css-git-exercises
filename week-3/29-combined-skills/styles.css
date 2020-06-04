@@ -1,1 +1,53 @@
 /* Add your own CSS code below */
+.red {
+  color: #c85308;
+}
+
+nav.main-nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li.main-nav__list-item {
+  margin-right: 40px;
+}
+
+article.main-article {
+  width: 50em;
+}
+
+main.site-content {
+  display: flex;
+  justify-content: center;
+}
+
+article.main-article p {
+  line-height: 25px;
+}
+
+@media screen and (min-width: 992px) {
+  h2.hero__title {
+    font-size: 70px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  header.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .views {
+    display: flex;
+    align-items: center;
+  }
+
+  .views a:last-child {
+    margin-left: auto;
+  }
+
+  .views a {
+    margin: 15px;
+  }
+}
